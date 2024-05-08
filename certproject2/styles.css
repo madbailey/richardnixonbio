@@ -1,0 +1,88 @@
+/* General body styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* More playful font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #99ccff; /* Light blue background */
+    color: #000066; /* Dark blue text */
+    background-image: url('sparklebackground.gif'); /* Kitschy background image */
+    background-repeat: repeat;
+}
+
+/* Main container styles */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffccff; /* Light pink */
+    padding: 20px;
+    border: 3px dashed #ff3399; /* Dashed border */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.5); /* Bright pink shadow */
+}
+
+/* Header styles */
+#title {
+    text-align: center;
+    color: #ff66cc; /* Pink text */
+    position: relative;
+    font-size: 28px; /* Larger text */
+    text-shadow: 2px 2px #ffff66; /* Text shadow for depth */
+}
+
+/* Flashing stars */
+#title::before,
+#title::after {
+    content: "✰✰✰✰✰✰";
+    position: relative;
+    font-size: 24px;
+    text-align: left;
+    color: #ffcc00; /* Bright yellow */
+    animation: flashingStar 1s infinite;
+}
+
+/* Image container */
+#img-div {
+    background: #ffffcc; /* Light yellow */
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px dotted #ff6600; /* Orange dotted border */
+    border-radius: 15px;
+}
+
+#image {
+    width: 100%;
+    max-width: 100%;
+    max-height: 150px;
+    max-width: 200px;
+    border: 4px groove #00ff00; /* Groove border, green */
+    border-radius: 20px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color: #666600; /* Dark yellow */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #000099; /* Dark blue */
+    color: #99ccff; /* Light blue */
+}
+
+#tribute-link {
+    color: #ffffff; /* White for links */
+}
+
+h2 {
+    color: #333;
+    padding-top: 20px;
+}
