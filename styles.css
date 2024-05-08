@@ -6,7 +6,7 @@ body {
     padding: 0;
     background: #99ccff; /* Light blue background */
     color: #000066; /* Dark blue text */
-    background-image: url('sparklebackground.gif'); /* Kitschy background image */
+    background-image: url('resources/sparklebackground.gif'); /* Kitschy background image */
     background-repeat: repeat;
 }
 
